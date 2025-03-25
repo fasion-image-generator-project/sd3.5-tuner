@@ -1,0 +1,12 @@
+[
+    {
+        "id": "custom-dataset",
+        "type": "huggingface",
+        "instance_data_dir": "/home/elicer/stable_diffusion/512_image_to_text_dataset/train",
+        "resolution": 1024,
+        "caption_strategy": "from_metadata",
+        "metadata_backend": "json",
+        "cache_dir_vae": "/home/elicer/SimpleTuner/output/cache/vae/sd3/custom-dataset",
+        "disabled": false,
+    }
+]
