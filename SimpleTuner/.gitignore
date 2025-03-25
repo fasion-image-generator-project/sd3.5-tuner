@@ -66,7 +66,6 @@ static
 templates
 api_state.json
 
-
 # EXCEPTIONS - allow config JSONs to be tracked
 !config/
 !config/*.json
