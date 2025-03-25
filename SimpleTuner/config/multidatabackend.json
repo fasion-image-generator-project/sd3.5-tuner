@@ -1,0 +1,20 @@
+[
+    {
+        "id": "image-dataset",
+        "type": "local",
+        "dataset_type": "image",
+        "instance_data_dir": "/home/elicer/datasets/train/images",
+        "resolution": 1024,
+        "cache_dir_vae": "/home/elicer/SimpleTuner/output/cache/vae/sd3/image-dataset",
+        "disabled": false
+    },
+    {
+        "id": "text-dataset",
+        "dataset_type": "text_embeds",
+        "type": "local",
+        "instance_data_dir": "/home/elicer/datasets/train/captions",
+        "cache_dir": "/home/elicer/SimpleTuner/output/cache/text_embeds",
+        "caption_strategy": "metadata",
+        "default": true
+    }
+]
