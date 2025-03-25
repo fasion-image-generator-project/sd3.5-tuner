@@ -5,7 +5,7 @@ output/
 temp/
 env.sh
 *.pem
-*/config/config.json
+# */config/config.json
 user_prompt_library.json
 __pycache__/
 .venv/
@@ -46,7 +46,7 @@ venv/
 Thumbs.db
 
 files.tbz
-*/config/auth.json
+# */config/auth.json
 work
 multidatabackend.json
 multidatabackend_sd2x.json
